@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: #1e1e1e;
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+}
+
+#reference {
+  font-size: 50px;
+  color: #4caf50;
+}
+
+.timer {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.score {
+  font-size: 30px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
